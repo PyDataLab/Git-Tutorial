@@ -15,3 +15,9 @@
 - Файл переходит в статус staged после выполнения git add.
 - Статус modified означает, что файл был изменён.
 - Большинство файлов в проектах «шагает» по следующему циклу: «изменён» → «добавлен в список на коммит» → «закоммичен» → «изменён» → и так далее.
+
+## Как читать git status
+git status показывает только следующие состояния файлов:
+- staged (Changes to be committed в выводе git status)
+- modified (Changes not staged for commit)
+- untracked (Untracked files).
