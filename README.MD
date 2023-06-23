@@ -21,3 +21,8 @@ git status показывает только следующие состояни
 - staged (Changes to be committed в выводе git status)
 - modified (Changes not staged for commit)
 - untracked (Untracked files).
+
+## Как исправить коммит
+- --amend рассчитан на работу с последним коммитом (HEAD).
+- Дополнить коммит новыми файлами можно с помощью git commit --amend --no-edit. Благодаря опции --no-edit сообщение к коммиту останется таким, каким и было.
+- Изменить сообщение к коммиту позволяет команда git commit --amend -m "Обновлённое сообщение коммита".
